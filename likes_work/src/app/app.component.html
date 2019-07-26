@@ -1,0 +1,31 @@
+<style>
+    .navbar {
+      background: rgba(0, 17, 255, 0.562)
+    }
+</style>
+<!--     NAVBAR     -->
+<nav class="navbar navbar-expand-sm navbar-dark">
+    
+    <a class="navbar-brand" href="app"><h3>Rev POST</h3></a>
+    <a class="navbar-brand" href="http://revature.com">
+      <img src="https://revproject2images.s3.amazonaws.com/giphy.gif" style="position:absolute;left:500;top:0; height:70px" alt="Revaturelogo">   </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!-- collapse will be not allow overlapping-->
+        <ul class="navbar-nav mr-auto">  </ul> <!-- It will expand the items mr= margin-right-->
+
+       
+          <!-- <div class="u lf " id="checkviewuser">
+              <span><a id="numero2" href="/RIDOApp/login.xhtml">login</a><b> | </b>
+              <a id="numero1" href="/RIDOApp/registraction.xhtml">register</a> </span>
+          </div> -->
+     
+
+
+
+        <button class="btn btn-info ml-2 mr-2" routerLink="Login">Login</button>
+        <button class="btn btn-info ml-2 mr-2" routerLink="Register">Register</button>
+        <button class="btn btn-info ml-2 mr-2" routerLink="Logout" (click) = "logout()">Logout</button>
+        
+    </div>
+</nav>
+
+<router-outlet></router-outlet>
